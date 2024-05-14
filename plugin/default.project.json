@@ -1,5 +1,5 @@
 {
-  "name": "RbxBLS",
+  "name": "BLS",
   "tree": {
     "$className": "Folder",
     "Plugin": {
@@ -21,7 +21,7 @@
       }
     },
     "Version": {
-      "$path": "Version.txt"
+      "$path": "v.txt"
     }
   }
 }
