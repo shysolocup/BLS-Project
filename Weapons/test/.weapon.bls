@@ -3,13 +3,6 @@
 [Name = "Test"]
 [Id = #Weapons + 1]
 
-ref CoolAmmo = AmmoBehavior(
-    [Weight = Heavy]
-    [Type = Ray]
-    [Damage = Player.Health / 2]
-    [Parryable = true]
-)
-
 [Ammo = CoolAmmo]
 
 [Parry = ParryBehavior(
