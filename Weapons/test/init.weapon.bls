@@ -3,11 +3,13 @@
 [Name = "Test"]
 [Id = #Weapons + 1]
 
-[Ammo = (
+ref CoolAmmo = (
     [Weight = Heavy]
     [Type = Ray],
     [Damage = Player.Health / 2]
-)]
+)
+
+[Ammo = CoolAmmo]
 
 [Parry = (
     [Behavior = Pierce]
